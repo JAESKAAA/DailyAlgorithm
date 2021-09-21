@@ -29,6 +29,7 @@ public class AscArrayUsingDivisor {
 				list.add(arr[i]);
 			}
 		}
+		//1-2 list에 들어간 값이 없는 경우 -1로 넣어줌
 		if(list.isEmpty()) {
 			list.add(-1);
 		}
